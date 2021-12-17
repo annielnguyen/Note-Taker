@@ -12,3 +12,5 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// Add a static middleware for serving assets in the public folder
+app.use(express.static('public'));
