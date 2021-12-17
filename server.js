@@ -34,7 +34,7 @@ app.post("/api/notes", function(req, res) {
     })
   });
 
-  // HTML Routes
+// HTML Routes
 app.get("/notes", function(req, res) {
     res.sendFile(path.join(__dirname, "Develop/public/notes.html"));
     });
@@ -46,3 +46,8 @@ app.get("/notes", function(req, res) {
     app.get("*", function(req, res) {
       res.sendFile(path.join(__dirname, "Develop/public/index.html"));
    });
+
+// Listen for connections
+  app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+  });
