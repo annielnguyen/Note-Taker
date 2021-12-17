@@ -8,3 +8,7 @@ const util = require("util");
 const PORT = process.env.PORT || 3001;
 const app = express();
 
+// Set up express app to handle data parsing
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
