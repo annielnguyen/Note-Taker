@@ -24,6 +24,7 @@ This project is licensed under the MIT license.
 ## Usage
   To use this app, Please run node server.js in your terminal and type http://localhost:3001/ into your browser.
   From there, click the "Get Started" button and enter the note title and text, and then click the save icon in the upper right hand corner. View my demo here: https://watch.screencastify.com/v/DFESOqRBBOeGblBYGF7S
+  Heroku deployed link: https://cryptic-gorge-24773.herokuapp.com/ 
   ![Screenshot1](/Develop/public/assets/ss1.png)
   ![Screenshot2](/Develop/public/assets/ss2.png)
 ## Contribution
